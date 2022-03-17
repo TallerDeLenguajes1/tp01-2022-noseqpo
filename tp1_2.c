@@ -1,3 +1,15 @@
+int cuadrado(int num);
+void cuadradoV(int *num);
+void mostrar(int var);
+void invertir(int *a, int *b);
+void orden(int *a, int *b);
+
+int main(int argc, char const *argv[])
+{
+    
+    return 0;
+}
+
 int cuadrado(int num){
     return num*num;
 }
@@ -23,4 +35,3 @@ void orden(int *a, int *b){
         invertir(a,b);
     }   
 }
-
